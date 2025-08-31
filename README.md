@@ -25,3 +25,17 @@ FINFET stands for Fin Field Effect Transistor it belongs to the FET family and i
 
 
 </details>
+
+<details>
+<summary> nfet Characterization</summary>
+<br>
+
+
+<img width="796" height="601" alt="image" src="https://github.com/user-attachments/assets/b5bd5e7f-2683-4a36-ae30-59f029c4fa3d" />
+
+<img width="792" height="600" alt="image" src="https://github.com/user-attachments/assets/991b4816-4b63-45f5-91d4-3aea95bd2a51" />
+
+
+
+</details>
+
