@@ -330,4 +330,9 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 **** end user architecture code
 .end
 ```
+
+<img width="541" height="456" alt="image" src="https://github.com/user-attachments/assets/3e41fcea-7dee-4d77-8393-0e0b2e58fe99" />
+<img width="783" height="678" alt="image" src="https://github.com/user-attachments/assets/92fa21b8-dd57-4330-a2c4-7d4360324053" />
+
+
 </details>
