@@ -533,7 +533,7 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 </details>
 
 <details>
-<summary> Ngspice commands to plot `Drain Current` (id) </summary>
+<summary> Ngspice commands to plot Drain Current (id) </summary>
 <br>
 
 ```
@@ -548,7 +548,7 @@ plot id
 </details>
 
 <details>
-<summary> `Power Consumption`</summary>
+<summary> Power Consumption</summary>
 <br>
 
 </details>
