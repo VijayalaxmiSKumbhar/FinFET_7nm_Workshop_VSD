@@ -149,3 +149,12 @@ pre_osdi /home/vsduser/Downloads/bsimcmg.osdi
 
 </details>
 
+<details>
+<summary> FinFET Inverter Characteristics </summary>
+<br>
+
+` Inverter Schematic in Xschem `
+
+<img width="797" height="675" alt="image" src="https://github.com/user-attachments/assets/a3440b4f-37f6-46e5-87b5-ec2daafdeaf2" />
+
+</details>
