@@ -142,6 +142,9 @@ pre_osdi /home/vsduser/Downloads/bsimcmg.osdi
 
 <img width="792" height="600" alt="image" src="https://github.com/user-attachments/assets/991b4816-4b63-45f5-91d4-3aea95bd2a51" />
 
+` plot id vs vd `
+
+<img width="796" height="600" alt="image" src="https://github.com/user-attachments/assets/62d706fb-b4d8-46ac-8ded-56a90169a8c4" />
 
 
 </details>
