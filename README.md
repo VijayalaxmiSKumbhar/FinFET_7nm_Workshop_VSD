@@ -615,4 +615,19 @@ plot gain_av
 
 </details>
 
+<details>
+<summary> Transconductance </summary>
+<br>
+
+```
+let id = v2#branch
+    let gm = real(deriv(id, nfet_in))
+    meas dc gm_max MAX gm
+    plot gm
+
+```
+
+<img width="476" height="376" alt="image" src="https://github.com/user-attachments/assets/a29707be-bf1c-4378-a302-251fd0c32d4b" />
+
+
 
