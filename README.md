@@ -571,6 +571,24 @@ print tp                                  Displays the Propagation Delay
 
 </details>
 
+<details>
+<summary> Gain </summary>
+<br>
+
+## Ngspice commands
+
+```
+let gain_av=deriv(nfet_out)         this gives negative gain value
+let gain_av=abs(deriv(nfet_out))    gives the absolute value of gain.
+plot gain_av
+
+```
+
+<img width="370" height="137" alt="image" src="https://github.com/user-attachments/assets/73d639f6-6b1f-4e8b-83db-556c66457bab" />
+
+<img width="796" height="688" alt="image" src="https://github.com/user-attachments/assets/cdc6b62e-e111-4207-a6ea-6e43ab7028c3" />
+
+</details>
 
  
 
