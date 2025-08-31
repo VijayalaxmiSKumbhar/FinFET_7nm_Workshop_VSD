@@ -550,6 +550,28 @@ plot id
 <details>
 <summary> Power Consumption</summary>
 <br>
+</details>
+
+
+<details>
+<summary> Propagation Delay </summary>
+<br>
+
+## Ngspice commands 
+
+```
+meas tran tpr when nfet_in=0.35 RISE=1    Measures the rise time (tpr) when the input voltage reaches 0.35V
+meas tran tpf when nfet_out=0.35 FALL=1   Measures the fall time (tpf) when the output voltage reaches 0.35V. 
+let tp = (tpf + tpr)/2                    Calculates the average propagation delay (tp) 
+print tp                                  Displays the Propagation Delay
+
+```
+
+<img width="552" height="237" alt="image" src="https://github.com/user-attachments/assets/bdcee058-83b2-43dc-8bb9-a31c30993fcf" />
 
 </details>
+
+
+ 
+
 
