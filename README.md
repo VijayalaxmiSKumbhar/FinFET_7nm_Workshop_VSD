@@ -29,8 +29,16 @@ FINFET stands for Fin Field Effect Transistor it belongs to the FET family and i
 <details>
 <summary> nfet Characterization</summary>
 <br>
+
+## Schematic of nfet in Xschem
+
+<img width="795" height="593" alt="image" src="https://github.com/user-attachments/assets/f62881df-5244-47a2-b7af-852a0397b87c" />
+
+
 ## nfet Spice Code
-` ** sch_path: /home/vsduser/Desktop/nfetchar.sch
+	
+``` 
+** sch_path: /home/vsduser/Desktop/nfetchar.sch
 **.subckt nfetchar
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
 R1 vdd nfet_out 1k m=1
@@ -127,9 +135,10 @@ pre_osdi /home/vsduser/Downloads/bsimcmg.osdi
 
 
 **** end user architecture code
-.end `
+.end 
+```
 
-<img width="796" height="601" alt="image" src="https://github.com/user-attachments/assets/b5bd5e7f-2683-4a36-ae30-59f029c4fa3d" />
+` plot id `
 
 <img width="792" height="600" alt="image" src="https://github.com/user-attachments/assets/991b4816-4b63-45f5-91d4-3aea95bd2a51" />
 
