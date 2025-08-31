@@ -590,6 +590,29 @@ plot gain_av
 
 </details>
 
- 
+ <details>
+<summary> Noise Margin </summary>
+<br>
+
+## Ngspice commands
+
+```
+ let gain_av = abs(deriv(nfet_out))
+    meas dc max_gain max gain_av
+    let gain_target = max_gain * 0.999
+    meas dc vil find nfet_in when gain_av = gain_target cross=1       Gives the `input low voltage` when `nfet_out` crosses the gain value for the first time.
+    meas dc voh find nfet_out when gain_av = gain_target cross=1      Gives the `output high voltage` at the same crossing point as `input low voltage`. 
+    meas dc vih find nfet_in when gain_av = gain_target cross=2       Gives the `input high voltage` when the output voltage crosses the gain value for the second time. 
+    meas dc vol find nfet_out when gain_av = gain_target cross=2      Gives the `output low voltage` at the second crossing point.
+    let nmh = voh - vih                                               Calculates the high noise margin.  
+    let nml = vil - vol                                               Calculates the low noise margin
+    print v_th max_gain vil voh vih vol nmh nml                       Displays `threshold voltage`, `max gain`, `input low voltage`, `output high voltage`, `input high voltage`, `output low voltage`, `high and low noise margin`.
+
+```
+
+<img width="478" height="376" alt="image" src="https://github.com/user-attachments/assets/c4dc9828-1a96-4d83-b8f9-672e140a55e2" />
+
+
+</details>
 
 
