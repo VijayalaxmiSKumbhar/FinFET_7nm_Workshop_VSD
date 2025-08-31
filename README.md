@@ -150,7 +150,7 @@ pre_osdi /home/vsduser/Downloads/bsimcmg.osdi
 </details>
 
 <details>
-<summary> FinFET Inverter Characteristics </summary>
+<summary> FinFET Inverter </summary>
 <br>
 
 ` Inverter Schematic in Xschem `
@@ -336,3 +336,27 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 
 </details>
+
+<details>
+<summary> FinFET Inverter Voltage Transfer Characteristics </summary>
+<br>
+
+` Schematic in Xschem `
+
+<img width="808" height="677" alt="image" src="https://github.com/user-attachments/assets/dc40183d-98ca-46b7-bd06-55ad8e1806b2" />
+
+` Spice code `
+
+```
+
+```
+
+` Voltage Transfer Characteristics `
+
+<img width="796" height="682" alt="image" src="https://github.com/user-attachments/assets/21e34f4e-e52e-40dd-967d-fb4a049f3b74" />
+
+
+
+
+</details>
+
