@@ -2,7 +2,7 @@
 
 ## 
 <details>
-<summary> Introduction to `FinFET` </summary>
+<summary> Introduction to `FinFET`</summary>
 <br>
 	
  `FinFET` stands for Fin Field Effect Transistor it belongs to the FET family and it is a type of Multi gate MOSFET that is used in place of a common MOSFET.
