@@ -348,6 +348,7 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 ` Spice code `
 
 ```
+
 ** sch_path: /home/vsduser/Desktop/asap_7nm_Xschem/inverter_vtcchar.sch
 **.subckt inverter_vtcchar
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
