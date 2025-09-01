@@ -631,5 +631,23 @@ let id = v2#branch
 
 <img width="798" height="687" alt="image" src="https://github.com/user-attachments/assets/03648888-c4fa-4f6d-8527-848c1d0670f9" />
 
+</details>
 
+<details>
+<summary> Frequency </summary>
+<br>
 
+## Spice Commands: 
+
+```
+tran 0.1 100p                          
+meas tran tr when nfet_in=0.07 RISE=1  
+meas tran tf when nfet_out=0.63 FALL=1 
+let t_delay = tr + tf                  
+print t_delay                          
+let f = 1/t_delay                      
+print f                                
+
+```
+
+</details>
