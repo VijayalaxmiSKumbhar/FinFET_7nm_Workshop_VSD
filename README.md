@@ -619,6 +619,8 @@ plot gain_av
 <summary> Transconductance </summary>
 <br>
 
+## Spice Commands: 
+
 ```
 let id = v2#branch
     let gm = real(deriv(id, nfet_in))
@@ -649,5 +651,26 @@ let f = 1/t_delay
 print f                                
 
 ```
+
+<img width="482" height="343" alt="image" src="https://github.com/user-attachments/assets/356d7808-aeb0-46d7-9575-8717d970777a" />
+
+</details>
+
+<details>
+<summary> Output Resistance </summary>
+<br>
+
+## Spice Commands: 
+
+```
+let r_out= deriv(nfet_out,id)  
+plot r_out                     
+
+```
+
+<img width="382" height="106" alt="image" src="https://github.com/user-attachments/assets/394cec1e-eab9-4491-a07d-64ffb91f0c86" />
+<img width="798" height="685" alt="image" src="https://github.com/user-attachments/assets/56d85176-e905-4466-978d-05945cf2f69a" />
+
+
 
 </details>
