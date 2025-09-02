@@ -550,7 +550,6 @@ plot id
 <details>
 <summary> Power Consumption</summary>
 <br>
-</details>
 
 ## Ngspice commands to calculate power
 
@@ -564,7 +563,7 @@ plot id
 
 <img width="486" height="132" alt="image" src="https://github.com/user-attachments/assets/67a0731e-3f4d-4f84-81e3-b5a7da5b49a1" />
 
-
+</details>
 
 <details>
 <summary> Propagation Delay </summary>
