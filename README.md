@@ -921,6 +921,19 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 ```
 
+<img width="486" height="355" alt="image" src="https://github.com/user-attachments/assets/a2d915ed-1b96-4a27-a183-9019f4dbc9b3" />
+
+* `Vtc curve'
+
+<img width="705" height="540" alt="image" src="https://github.com/user-attachments/assets/5cfe20ef-6b33-4536-9dcd-5c0c685d52ad" />
+
+* `id curve`
+
+<img width="702" height="548" alt="image" src="https://github.com/user-attachments/assets/87f52960-3c8d-48a3-b8c4-605c38de10a0" />
+
+* `delay values`
+
+<img width="606" height="338" alt="image" src="https://github.com/user-attachments/assets/e780b5a5-8db8-4a68-a115-cc76f9599331" />
 
 
 |  S.No. |  W/L (PMOS) |  W/L (NMOS) |  Vth (V) | Id (A)   |P (W)   |  tpd (ps) |  Av | f (Hz)  |
