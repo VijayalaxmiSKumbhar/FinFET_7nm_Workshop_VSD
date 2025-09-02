@@ -2,7 +2,7 @@
 
 ## 
 <details>
-<summary> Introduction to `FinFET`</summary>
+<summary> Introduction to FinFET </summary>
 <br>
 	
  `FinFET` stands for Fin Field Effect Transistor it belongs to the FET family and it is a type of Multi gate MOSFET that is used in place of a common MOSFET.
@@ -14,7 +14,7 @@
 </details>
 
 <details>
-<summary> Why `FinFETs`?</summary>
+<summary> Why FinFETs?</summary>
 <br>
   
 * To follow Moore’s, we have to increase the number of transistors which leads to downscaling of the transistor dimensions and results in several SCEs. 
@@ -674,3 +674,21 @@ plot r_out
 
 
 </details>
+
+<details>
+<summary>  Assignment on 7nm FinFET inverter Characterization Table </summary>
+<br>
+
+|  S.No. |  W/L (PMOS) |  W/L (NMOS) |  Vth (V) | Id (A)   |P (W)   |  tpd (ps) |  Av | f (Hz)  |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| 1  |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+
+</details>
+
