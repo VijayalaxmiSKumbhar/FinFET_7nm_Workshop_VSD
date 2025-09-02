@@ -692,3 +692,20 @@ plot r_out
 
 </details>
 
+<details>
+<summary>  Assignment on design and simulation of a Bandgap Reference Circuit using Xschem and Ngspice </summary>
+<br>
+
+## Characterization Table
+
+|  S.No. |  VDD (V) |  Temp (°C) |  Vref (V) | Line Reg. (mV/V)   |Startup Time (ns)   |  
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | 
+| 1  |  0.8 |  27 |   |   |   |   |  
+| 2  | 0.9  |  27 |   |   |   |   |   
+| 3  |  1.0 | 27  |   |   |   |   |   
+| 4  | 1.0  |  -40 |   |   |   |   |  
+|  5 | 1.0  | 125  |   |   |   |   |   
+   
+
+</details>
+
