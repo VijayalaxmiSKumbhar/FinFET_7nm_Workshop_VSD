@@ -691,6 +691,11 @@ plot r_out
 <summary>  Assignment on 7nm FinFET inverter Characterization Table </summary>
 <br>
 
+## Schematic in Xschem with dummy voltage source
+
+<img width="1135" height="605" alt="image" src="https://github.com/user-attachments/assets/c6c26236-f9e7-4e69-a91b-c2c09ff1da8e" />
+
+
 |  S.No. |  W/L (PMOS) |  W/L (NMOS) |  Vth (V) | Id (A)   |P (W)   |  tpd (ps) |  Av | f (Hz)  |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 1  |   |   |   |   |   |   |   |   |
