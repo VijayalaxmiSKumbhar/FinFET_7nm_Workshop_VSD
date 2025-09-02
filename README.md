@@ -552,6 +552,19 @@ plot id
 <br>
 </details>
 
+## Ngspice commands to calculate power
+
+```
+ let trans_current = v2#branch
+    meas tran id_pwr integ trans_current from=20e-12 to=60e-12
+    let pwr = id_pwr *0.7
+    let power = abs(pwr/40)
+    print power
+```
+
+<img width="486" height="132" alt="image" src="https://github.com/user-attachments/assets/67a0731e-3f4d-4f84-81e3-b5a7da5b49a1" />
+
+
 
 <details>
 <summary> Propagation Delay </summary>
