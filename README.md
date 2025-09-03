@@ -155,14 +155,16 @@ pre_osdi /home/vsduser/Downloads/bsimcmg.osdi
 
 ` Inverter Schematic in Xschem `
 
-<img width="797" height="675" alt="image" src="https://github.com/user-attachments/assets/a3440b4f-37f6-46e5-87b5-ec2daafdeaf2" />
+<img width="1287" height="792" alt="image" src="https://github.com/user-attachments/assets/4ed3c640-c954-4ad1-984d-4ff6ffde1e84" />
+
+
 
 ` Spice Code `
 ```
 ** sch_path: /home/vsduser/Desktop/asap_7nm_Xschem/inverter_7nmfinfet.sch
 **.subckt inverter_7nmfinfet
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
-Xpfet1 nfet_out nfet_in vdd nfet_out asap_7nm_pfet l=7e-009 nfin=14
+Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin=14
 V1 nfet_in GND pulse(0 0.7 20p 10p 10p 20p 500p 1)
 V2 vdd GND 0.7
 **** begin user architecture code
@@ -343,7 +345,8 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 ` Schematic in Xschem `
 
-<img width="808" height="677" alt="image" src="https://github.com/user-attachments/assets/dc40183d-98ca-46b7-bd06-55ad8e1806b2" />
+<img width="1527" height="806" alt="image" src="https://github.com/user-attachments/assets/f64ee933-3aab-4e39-9808-d219d6853f18" />
+
 
 ` Spice code `
 
@@ -352,7 +355,7 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 ** sch_path: /home/vsduser/Desktop/asap_7nm_Xschem/inverter_vtcchar.sch
 **.subckt inverter_vtcchar
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
-Xpfet1 nfet_out nfet_in vdd nfet_out asap_7nm_pfet l=7e-009 nfin=14
+Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin=14
 V1 nfet_in GND pulse(0 0.7 20p 10p 10p 20p 500p 1)
 V2 vdd GND 0.7
 **** begin user architecture code
@@ -693,7 +696,8 @@ plot r_out
 
 ## Schematic in Xschem with dummy voltage source
 
-<img width="1135" height="605" alt="image" src="https://github.com/user-attachments/assets/c6c26236-f9e7-4e69-a91b-c2c09ff1da8e" />
+<img width="1497" height="798" alt="image" src="https://github.com/user-attachments/assets/6e9653dd-58b7-4c24-8593-e3a5d474c7f9" />
+
 
 ## Spice code
 
@@ -702,7 +706,7 @@ plot r_out
 ** sch_path: /home/vsduser/Desktop/asap_7nm_Xschem/inverter_vtccharvuniq.sch
 **.subckt inverter_vtccharvuniq
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
-Xpfet1 nfet_out nfet_in vdd nfet_out asap_7nm_pfet l=7e-009 nfin=14
+Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin=14
 Vuniq nfet_in GND pulse(0 0.7 20p 10p 10p 20p 500p 1)
 V2 vdd GND 0.7
 **** begin user architecture code
