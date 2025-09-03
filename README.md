@@ -1156,6 +1156,14 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 ```
 
+* `Vref`
+  
+<img width="780" height="635" alt="image" src="https://github.com/user-attachments/assets/ef68868d-670a-4d68-9191-0a1b8212bf34" />
+
+* `Vctat`
+  
+<img width="776" height="628" alt="image" src="https://github.com/user-attachments/assets/c1308a54-1c8e-425f-bca0-9c2fdc8d9d7c" />
+
 ## Characterization Table
 
 |  S.No. |  VDD (V) |  Temp (°C) |  Vref (V) | Line Reg. (mV/V)   |Startup Time (ns)   |  
