@@ -959,6 +959,15 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 <summary>  Assignment on design and simulation of a Bandgap Reference Circuit using Xschem and Ngspice </summary>
 <br>
 
+## Bandgap reference circuit in Xschem
+
+<img width="1851" height="813" alt="image" src="https://github.com/user-attachments/assets/cfb98b11-5ab6-49eb-8ce1-997823597ba1" />
+
+## Spice Code
+
+```
+
+
 ## Characterization Table
 
 |  S.No. |  VDD (V) |  Temp (°C) |  Vref (V) | Line Reg. (mV/V)   |Startup Time (ns)   |  
