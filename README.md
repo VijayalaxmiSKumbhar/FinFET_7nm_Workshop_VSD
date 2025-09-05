@@ -1180,7 +1180,13 @@ Unique value of Resistance = 1.183k (ASCII Value of Vijayalaxmi)
 
 <img width="1850" height="782" alt="bandgapcktfinaltrans" src="https://github.com/user-attachments/assets/252b98ee-02bc-40d8-b589-cf5bd0e8b214" />
 
-## Transient Analysis
+## Transient Analysis Graphs
+
+
+<img width="705" height="550" alt="image" src="https://github.com/user-attachments/assets/ae40f782-75b9-453c-b3b7-d6fee81cb070" />
+
+<img width="702" height="542" alt="image" src="https://github.com/user-attachments/assets/05e7f64d-2282-498e-97ae-41f617b0d01e" />
+
 
 
 
