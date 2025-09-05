@@ -1174,6 +1174,15 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 | 4  | 1.0  |  -40 | 0.8382197  | 838.21  | 74348.03  |   |  
 |  5 | 1.0  | 125  | 0.8154454  | 815.44  | 30345.78  |   |   
    
+## Schematic in Xschem
+
+Unique value of Resistance = 1.183k (ASCII Value of Vijayalaxmi)
+
+<img width="1850" height="782" alt="bandgapcktfinaltrans" src="https://github.com/user-attachments/assets/252b98ee-02bc-40d8-b589-cf5bd0e8b214" />
+
+## Transient Analysis
+
+
 
 </details>
 
