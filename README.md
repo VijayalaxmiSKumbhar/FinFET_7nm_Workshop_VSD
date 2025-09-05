@@ -1176,7 +1176,7 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
    
 ## Schematic in Xschem
 
-Unique value of Resistance = 1.183k (ASCII Value of Vijayalaxmi)
+Unique value of Resistance = 1.183k (The ASCII values for the name "vijayalaxmi" are as follows: v: 118, i: 105, j: 106, a: 97, y: 121, a: 97, l: 108, a: 97, x: 120, m: 109, i: 105. )
 
 <img width="1850" height="782" alt="bandgapcktfinaltrans" src="https://github.com/user-attachments/assets/252b98ee-02bc-40d8-b589-cf5bd0e8b214" />
 
