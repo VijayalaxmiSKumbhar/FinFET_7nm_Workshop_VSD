@@ -1402,6 +1402,9 @@ plot v(Vctat)
 
 ```
 
+<img width="381" height="58" alt="image" src="https://github.com/user-attachments/assets/505654dd-5b58-4987-9334-c74b55822443" />
+
+
 ## Transient Analysis Graphs
 
 
