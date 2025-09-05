@@ -1422,7 +1422,7 @@ plot v(Vctat)
 <summary>  Acknowledgements </summary>
 <br>
 
- - Kunal Ghosh, VSD Corp Pvt. Ltd. (Co-Founder)
+ - Kunal Ghosh Co-founder VSD Coporation Private Limited
    
  - Soundarya Madhuri Royyuru (https://github.com/RSMadhuri66/Bandgap-Reference-Circuit-with-SCMB-with-ASAP-7nm-PDK-)
 
