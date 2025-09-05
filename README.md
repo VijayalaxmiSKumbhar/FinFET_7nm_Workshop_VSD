@@ -1417,3 +1417,13 @@ plot v(Vctat)
 
 </details>
 
+
+<details>
+<summary>  Acknowledgements </summary>
+<br>
+
+ - Kunal Ghosh, VSD Corp Pvt. Ltd. (Co-Founder)
+   
+ - Soundarya Madhuri Royyuru (https://github.com/RSMadhuri66/Bandgap-Reference-Circuit-with-SCMB-with-ASAP-7nm-PDK-)
+
+
