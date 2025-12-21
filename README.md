@@ -961,7 +961,8 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 ## Bandgap reference circuit in Xschem
 
-<img width="1851" height="813" alt="image" src="https://github.com/user-attachments/assets/cfb98b11-5ab6-49eb-8ce1-997823597ba1" />
+<img width="1368" height="571" alt="image" src="https://github.com/user-attachments/assets/44354504-024d-4470-b76b-06e3fb30cba2" />
+
 
 ## Spice Code
 
@@ -1158,11 +1159,13 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 * `Vref`
   
-<img width="780" height="635" alt="image" src="https://github.com/user-attachments/assets/ef68868d-670a-4d68-9191-0a1b8212bf34" />
+<img width="702" height="538" alt="image" src="https://github.com/user-attachments/assets/bd12d815-0020-4e14-a928-96c2d02579b7" />
+
 
 * `Vctat`
   
-<img width="776" height="628" alt="image" src="https://github.com/user-attachments/assets/c1308a54-1c8e-425f-bca0-9c2fdc8d9d7c" />
+<img width="705" height="542" alt="image" src="https://github.com/user-attachments/assets/473a7feb-b40f-4f31-a2f0-b02adfa82fe1" />
+
 
 ## Characterization Table
 
