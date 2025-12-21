@@ -967,39 +967,44 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 ## Spice Code
 
 ```
-
 ** sch_path: /home/vsduser/Desktop/asap_7nm_Xschem/bandgapcktfinal.sch
 **.subckt bandgapcktfinal
-Xpfet1 net3 net1 VDD net12 asap_7nm_pfet l=7e-009 nfin=14
-Xpfet2 net2 net1 VDD net13 asap_7nm_pfet l=7e-009 nfin=14
-Xpfet3 Vref net2 VDD net14 asap_7nm_pfet l=7e-009 nfin=14
-Xpfet4 net4 net5 VDD net15 asap_7nm_pfet l=7e-009 nfin=14
-Xpfet5 net9 net1 net4 net16 asap_7nm_pfet l=7e-009 nfin=14
-Xpfet6 net6 net1 net5 net17 asap_7nm_pfet l=7e-009 nfin=14
-Xnfet1 net10 net6 net3 net18 asap_7nm_nfet l=7e-009 nfin=14
-Xnfet2 net7 net6 net2 net19 asap_7nm_nfet l=7e-009 nfin=14
-Xnfet3 net8 net8 GND net20 asap_7nm_nfet l=7e-009 nfin=14
-Xnfet4 net9 net9 net8 net21 asap_7nm_nfet l=7e-009 nfin=14
-Xnfet5 net10 net10 GND net22 asap_7nm_nfet l=7e-009 nfin=14
-R1 net7 net11 1k m=1
-Xnfet6 net11 net11 GND net23 asap_7nm_nfet l=7e-009 nfin=14
-R2 Vref VCTAT 1k m=1
-Xnfet7 VCTAT VCTAT GND net24 asap_7nm_nfet l=7e-009 nfin=14
-Xnfet8 net11 net11 GND net25 asap_7nm_nfet l=7e-009 nfin=14
-Xnfet9 net11 net11 GND net26 asap_7nm_nfet l=7e-009 nfin=14
-Xnfet10 net11 net11 GND net27 asap_7nm_nfet l=7e-009 nfin=14
-V2 VDD GND 0.7
+Xpfet1 net2 net1 VDD net8 asap_7nm_pfet l=7e-009 nfin=14
+Xpfet2 net1 net1 VDD net9 asap_7nm_pfet l=7e-009 nfin=14
+Xpfet3 Vref net1 VDD net10 asap_7nm_pfet l=7e-009 nfin=14
+Xpfet4 net3 net1 VDD net11 asap_7nm_pfet l=7e-009 nfin=14
+Xpfet5 net6 net1 net3 net12 asap_7nm_pfet l=7e-009 nfin=14
+Xpfet6 net4 net1 net1 net13 asap_7nm_pfet l=7e-009 nfin=14
+Xnfet1 net7 net4 net2 net14 asap_7nm_nfet l=7e-009 nfin=14
+Xnfet2 R4.1 net4 net1 net15 asap_7nm_nfet l=7e-009 nfin=14
+Xnfet3 net5 net5 GND net16 asap_7nm_nfet l=7e-009 nfin=14
+Xnfet4 net6 net6 net5 net17 asap_7nm_nfet l=7e-009 nfin=14
+Xnfet5 net7 net7 GND net18 asap_7nm_nfet l=7e-009 nfin=14
+Xnfet6 R4.2 R4.2 GND GND asap_7nm_nfet l=7e-009 nfin=14
+Xnfet7 VCTAT VCTAT GND net19 asap_7nm_nfet l=7e-009 nfin=14
+Xnfet8 R4.2 R4.2 GND GND asap_7nm_nfet l=7e-009 nfin=14
+Xnfet9 R4.2 R4.2 GND GND asap_7nm_nfet l=7e-009 nfin=14
+Xnfet10 R4.2 R4.2 GND GND asap_7nm_nfet l=7e-009 nfin=14
+V2 VDD GND 1
+R3 Vref VCTAT 50k ac=1k m=1
+R4 R4.1 R4.2 30k ac=1k m=1
 **** begin user architecture code
 
+
+
 .include /home/vsduser/Desktop/asap_7nm_Xschem/asap7.spice
-.dc temp -45 125 5
+
+.dc temp -45 125 1
 .control
+
 pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
+
 run
-let VPTAT=V(R4.1)-V(R4.2)
+
+let VPTAT = V(R4.1)-V(R4.2)
 plot VPTAT
-plot v(Vref)
-plot v(Vctat)
+plot V(VCTAT)
+plot V(VREF)
 .endc
 
 
@@ -1010,7 +1015,7 @@ plot v(Vctat)
 **** begin user architecture code
 
 .subckt asap_7nm_pfet S G D B l=7e-009 nfin=14
-	npmos_finfet S G D B BSIMCMG_osdi_P l=7e-009 nfin=14
+    npmos_finfet S G D B BSIMCMG_osdi_P l=7e-009 nfin=14
 .ends asap_7nm_pfet
 
 .model BSIMCMG_osdi_P BSIMCMG_va (
@@ -1084,7 +1089,7 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 
 .subckt asap_7nm_nfet S G D B l=7e-009 nfin=14
-	nnmos_finfet S G D B BSIMCMG_osdi_N l=7e-009 nfin=14
+    nnmos_finfet S G D B BSIMCMG_osdi_N l=7e-009 nfin=14
 .ends asap_7nm_nfet
 
 .model BSIMCMG_osdi_N BSIMCMG_va (
@@ -1157,6 +1162,9 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 **** end user architecture code
 .end
+
+
+
 
 ```
 
