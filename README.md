@@ -991,10 +991,13 @@ Xnfet10 net11 net11 GND net27 asap_7nm_nfet l=7e-009 nfin=14
 V2 VDD GND 0.7
 **** begin user architecture code
 
-
+.include /home/vsduser/Desktop/asap_7nm_Xschem/asap7.spice
 .dc temp -45 125 5
 .control
+pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 run
+let VPTAT=V(R4.1)-V(R4.2)
+plot VPTAT
 plot v(Vref)
 plot v(Vctat)
 .endc
